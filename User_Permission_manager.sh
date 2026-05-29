@@ -10,7 +10,7 @@ read username
 
 if  id "$username" &>/dev/null
 then
-    
+
     echo "user already exist"
 else
     useradd "$username"
