@@ -24,7 +24,8 @@ echo -n "Enter the groupname: "
 read groupname
 
 if getent group $groupname &>/dev/null
-then 
+then
+    groupdel 
     echo "Group already exist"
 else
     groupadd "$groupname"
