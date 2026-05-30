@@ -62,7 +62,7 @@ user-permission-management-system/
 │
 ├── User_Permission_manager.sh
 ├── README.md
-└── screenshots/
+
 ```
 
 ## How to Run
